@@ -1,0 +1,175 @@
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #1d154d;
+  opacity: 0.9;
+  background: rgb(93, 94, 94);
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+#showcase {
+  position: relative;
+  background: url("img/mountains.jpg");
+  min-height: 600px;
+}
+#showcase .primary-overlay {
+  background: linear-gradient(rgba(65, 65, 65, 0), rgb(5, 13, 88));
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  background: #0d0346;
+}
+.card-body {
+  border: #0d0346;
+}
+.text {
+  color: #0d0346;
+}
+.bg {
+  background: #0d0346;
+}
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+#authors img {
+  margin-top: -50px;
+}
+#authors .card:hover {
+  background: #0d0346;
+  color: #fff;
+}
+#authors .fab {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
+
+@keyframes logo {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.d-lg-block {
+  animation: forward 6s infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes forward {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.left {
+  animation: leftmove 2.5s linear;
+}
+@keyframes leftmove {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.first {
+  animation: jump 3s ease infinite;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.second {
+  animation: jump2 3s ease infinite;
+}
+@keyframes jump2 {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(-0px);
+  }
+}
+.third {
+  animation: jump3 3s ease infinite;
+}
+@keyframes jump3 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.forth {
+  animation: jump4 3s ease infinite;
+}
+@keyframes jump4 {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(-0px);
+  }
+}
+.move {
+  animation: move 4s infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes move {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+@media (max-width: 568px){
+  .col-lg-6{
+    display: none;
+  }
+
+}
